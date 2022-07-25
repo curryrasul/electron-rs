@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 borsh = { version = "0.9.3", features = ["const-generics"] }
 ark-bn254 = { version = "0.2.0", default-features = false, features = ["curve"] }
-ark-groth16 = { git = "https://github.com/arkworks-rs/groth16", rev = "765817f", default-features = false }
+ark-groth16 = { version = "0.2.0", default-features = false }
 ark-ff = "0.2.0"
 ark-ec = "0.2.0"
 near-sdk = "4.0.0"
